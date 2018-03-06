@@ -7,6 +7,7 @@ import threading
 from UserDict import DictMixin
 from . import rsa_x509_pem
 from xmlsec.exceptions import XMLSigException
+from xmlsec.utils import pem2b64
 
 NS = {'ds': 'http://www.w3.org/2000/09/xmldsig#'}
 
